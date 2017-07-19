@@ -42,7 +42,7 @@ header{
 	float: right;
 	height: 75px;
 	text-align:right;
-	margin: 0 100px 0 auto;	
+	margin: 0 100px 0 auto;
 }
 input{
 	height: 30px;
@@ -80,14 +80,24 @@ width:525px;
 	padding: 10px 35px 0 0;
 }
 button{
+	margin-right: 25px;
 	padding: 8px;
 	font-size: 18px;
 	color: grey;
 	background-color: black;
 }
+button:nth-child(2) {
+	background-color:lightblue;
+	font-style: italic;
+
+}
 
 footer{
-	margin: 50px auto;
+	margin: 0;
 	height: 105px;
 		background-color: lightblue;
+		position:fixed;
+		bottom:0;
+		left:0;
+		right:0;
 }
