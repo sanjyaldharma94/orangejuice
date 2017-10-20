@@ -82,3 +82,20 @@ footer{
 		left:0;
 		right:0;
 }
+@media(max-width:400px){
+	nav .navigation li:nth-child(3){
+		display: none;
+	}
+	nav .navigation li:nth-child(4){
+		display: none;
+	}
+	.search-box{
+		display: none;
+	}
+	button:nth-child(2){
+		padding: 2px;
+	}
+	/*button:nth-child(3){
+		padding:2px;
+	}*/
+}
