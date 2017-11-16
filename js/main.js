@@ -1,3 +1,10 @@
+function display(){
+var userInput = document.getElementById('juiceType').value;
+  
+  console.log(useInput);
+  if(e.keycode)
+}
+
 function changeImage() {
 	document.getElementById('picture').src ='img/org.jpg';
 }
