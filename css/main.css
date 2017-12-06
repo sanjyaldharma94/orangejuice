@@ -52,6 +52,9 @@ input{
 	height: 30px;
 	border: transparent;
 }
+div.container-fluid{
+	height: 370px;
+}
 .container-fluid p{
 	color: orange;
 	font-size: 28px;
@@ -61,6 +64,9 @@ input{
 .container-fluid > p> span{
 	color: black;
 	font-size: 36px;
+}
+img{
+	border-radius:50%;
 }
 button{
 	margin-right: 25px;
@@ -79,9 +85,8 @@ button:nth-child(3) {
 }
 
 footer{
-	margin-top: 62px;
-	height:60px;
- background-color: blue;
+	height:50px;
+ background-color:blue;
 
 }
 @media(max-width:400px){
@@ -100,4 +105,9 @@ footer{
 	/*button:nth-child(3){
 		padding:2px;
 	}*/
+}
+@media(min-width:768px){
+	footer{
+		margin-top: 82px;
+	}
 }
